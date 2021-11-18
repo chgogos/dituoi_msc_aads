@@ -1,4 +1,5 @@
-c = ["nikos", "maria", "petros", "sofia"]
+c = ["Nikolaos", "Maria", "Petros", "Sofia"]
+
 itr = iter(c)
 
 while True:

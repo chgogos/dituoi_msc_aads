@@ -1,6 +1,7 @@
-'''
+"""
 Grokking Algorithms - Binary Search
-'''
+"""
+
 
 def binary_search(list, item):
     low = 0
@@ -16,5 +17,6 @@ def binary_search(list, item):
         else:
             low = mid + 1
     return None
+
 
 print(binary_search([1, 3, 5, 7, 9], 3))

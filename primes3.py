@@ -17,7 +17,6 @@ def is_prime(n):
 
 
 from_ = 1
-# to = 100_000
 to = 10_000_000
 
 c = 0
