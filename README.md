@@ -22,3 +22,20 @@ TotalSeconds      : 10,3607604
 ...
 TotalSeconds      : 0,093944
 ...
+
+
+DADS -> Design and Analysis of Data Structures
+GA -> Grokking algorithms
+
+**Μάθημα 1**
+DADS 1.2
+DADS 1.4
+DADS 1.5
+DADS 2.1
+DADS 2.5
+DADS 2.9
+GA CHAPTER 1
+GA CHAPTER 2
+
+
+

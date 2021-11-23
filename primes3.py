@@ -17,7 +17,7 @@ def is_prime(n):
 
 
 from_ = 1
-to = 10_000_000
+to = 1_000_000
 
 c = 0
 for x in range(from_, to + 1):

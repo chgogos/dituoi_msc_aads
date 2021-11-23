@@ -16,7 +16,7 @@ bool is_prime(int n)
 int main()
 {
     int c = 0;
-    int from = 1, to = 10000000;
+    int from = 1, to = 1000000;
     for (int x = from; x <= to; x++)
         if (is_prime(x))
             c++;

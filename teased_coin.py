@@ -8,7 +8,7 @@ def teased_coin(p):
         return "T"
 
 
-N = 1000000
+N = 10
 c = 0
 for i in range(N):
     if teased_coin(0.8) == "H":
