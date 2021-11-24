@@ -1,3 +1,4 @@
+import sys
 import time
 
 def is_prime(n):
@@ -15,10 +16,15 @@ def is_prime(n):
         i += 2
     return True
 
-start = time.time() 
-from_ = 1
-to = 100_000
 
+if len(sys.argv) == 3:
+    from_ = int(sys.argv[1])
+    to = int(sys.argv[2])
+else:
+    from_ = 1
+    to = 100_000
+
+start = time.time() 
 c = 0
 for x in range(from_, to + 1):
     if is_prime(x):
