@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
+#include <string>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
     }
     cout << endl;
 
-    int key = 5;
+    int key = 5; // αν δεν δοθεί όρισμα γραμμής εντολών τότε χρησιμοποιείται ως κλειδί προς αναζήτηση η τιμή 5
     if (argc == 2)
         key = stoi(argv[1]);
 
@@ -57,3 +58,24 @@ int main(int argc, char *argv[])
         cout << "a[" << (it - v.begin()) << "]=" << *it << endl;
     }
 }
+
+/*
+v[0]=0 v[1]=1 v[2]=2 v[3]=3 v[4]=3 v[5]=4 v[6]=5 v[7]=5 v[8]=5 v[9]=6 v[10]=7 v[11]=8 v[12]=9 
+1) std::binary_search
+Key = 5 found = true
+2) std::lower_bound
+Lower bound for key = 5 found at position 6
+3) std::upper_bound
+Upper bound for key = 5 found at position 9
+a[6]=5
+a[7]=5
+a[8]=5
+4) std::equal_range
+a[6]=5
+a[7]=5
+a[8]=5
+5) std::parition_point
+a[6]=5
+a[7]=5
+a[8]=5
+*/

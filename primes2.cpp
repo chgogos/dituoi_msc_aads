@@ -33,3 +33,6 @@ int main(int argc, char *argv[])
     std::cout << "Number of primes between " << from << " and " << to << " are " << c << std::endl;
     std::cout << "Time passed: " << duration.count() << "seconds" << std::endl;
 }
+
+// Number of primes between 1 and 100000 are 9592
+// Time passed: 0.0030297seconds

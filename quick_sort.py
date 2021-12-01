@@ -5,5 +5,9 @@ def quick_sort(array):
     less = [i for i in array[1:] if i <= pivot]
     greater = [i for i in array[1:] if i > pivot]
     return quick_sort(less) + [pivot] + quick_sort(greater)
-    
-print(quick_sort([3,5,2,1,4]))
+
+
+print(quick_sort([3, 5, 2, 1, 4]))
+
+
+# [1, 2, 3, 4, 5]

@@ -36,3 +36,7 @@ for x in range(from_, to + 1):
 time_elapsed = time.time() - start
 print(f"Το πλήθος των πρώτων αριθμών από {from_} μέχρι και {to} είναι {c}")
 print(f"Time elapsed =  {time_elapsed:.2f}seconds")
+
+
+# Το πλήθος των πρώτων αριθμών από 1 μέχρι και 100000 είναι 9592
+# Time elapsed =  0.10seconds

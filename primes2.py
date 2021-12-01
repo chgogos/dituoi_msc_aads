@@ -1,6 +1,7 @@
 import sys
 import time
 
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -24,12 +25,15 @@ else:
     from_ = 1
     to = 100_000
 
-start = time.time() 
+start = time.time()
 c = 0
 for x in range(from_, to + 1):
     if is_prime(x):
         c += 1
-        
+
 time_elapsed = time.time() - start
 print(f"Το πλήθος των πρώτων αριθμών από {from_} μέχρι και {to} είναι {c}")
 print(f"Time elapsed =  {time_elapsed:.2f}seconds")
+
+# Το πλήθος των πρώτων αριθμών από 1 μέχρι και 100000 είναι 9592
+# Time elapsed =  0.13seconds
