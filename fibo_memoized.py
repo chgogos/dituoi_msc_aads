@@ -1,6 +1,6 @@
 from functools import lru_cache
 
-@lru_cache(maxsize=1000)
+@lru_cache(maxsize=3)
 def fibonacci(n):
     if n == 1:
         return 1

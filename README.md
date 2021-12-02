@@ -4,7 +4,7 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 1/12/2021
+Τελευταία ενημέρωση: 2/12/2021
 
 ## Εργασίες μαθήματος
 
@@ -33,13 +33,16 @@
 
 **02/12/2021 4:00-7:00**
 
-- [ ] GA CHAPTER 3 Recursion
-- [ ] GA CHAPTER 4 Quicksort 
+- [X] GA CHAPTER 3 Recursion
+- [X] GA CHAPTER 4 Quicksort 
+
+**09/12/2021 4:00-7:00**
+
 - [ ] DADS CHAPTER 5 Hashing
+- [ ] GA CHAPTER 5 Hash tables
 
 <!-- **Next**
 
-- [ ] GA CHAPTER 5 Hash tables
 - [ ] DADS CHAPTER 4 Graphs
 - [ ] GA CHAPTER 6 Breadth First Search
 - [ ] GA CHAPTER 7 Dijkstra's algorithm

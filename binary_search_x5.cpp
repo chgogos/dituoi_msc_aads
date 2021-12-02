@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         cout << "a[" << (it - v.begin()) << "]=" << *it << endl;
     }
 
-    cout << "5) std::parition_point" << endl;
+    cout << "5) std::partition_point" << endl;
     auto pp = partition_point(v.begin(), v.end(), [&](auto const &e)
                               { return e < key; });
     for (auto it = pp; it != v.end() && *it == key; it++)

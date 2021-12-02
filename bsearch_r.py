@@ -2,9 +2,12 @@
 def binary_search(list, item):
     return binary_search_helper(list, item, 0, len(list) - 1)
 
-
+# call = 0
 def binary_search_helper(list, item, low, high):
     """δυαδική αναζήτηση με αναδρομή"""
+    # global call
+    # call += 1
+    # print(f'call= {call} -> low={low}, high={high}')
     if low > high:
         return None
     mid = (low + high) // 2
