@@ -4,7 +4,7 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 2/12/2021
+Τελευταία ενημέρωση: 8/12/2021
 
 ## Εργασίες μαθήματος
 
@@ -36,7 +36,7 @@
 - [X] GA CHAPTER 3 Recursion
 - [X] GA CHAPTER 4 Quicksort 
 
-**09/12/2021 4:00-7:00**
+**08/12/2021 4:00-7:00**
 
 - [ ] DADS CHAPTER 5 Hashing
 - [ ] GA CHAPTER 5 Hash tables
