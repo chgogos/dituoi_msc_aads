@@ -4,12 +4,12 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 2/12/2021
+Τελευταία ενημέρωση: 16/12/2021
 
 ## Εργασίες μαθήματος
 
 - [ ] [Εργασία 1](./projects/2021f_project1.pdf) με ημερομηνία παράδοσης 19/12/2021
-- [ ] Εργασία 2
+- [ ] [Εργασία 2](./projects/2021f_project2.pdf) με ημερομηνία παράδοσης 16/1/2022
 - [ ] Εργασία 3
 
 ## Ημερολόγιο μαθημάτων
@@ -38,14 +38,18 @@
 
 **09/12/2021 4:00-7:00**
 
-- [ ] DADS CHAPTER 5 Hashing
-- [ ] GA CHAPTER 5 Hash tables
+- [X] DADS CHAPTER 5 Hashing
+- [X] GA CHAPTER 5 Hash tables
 
-<!-- **Next**
+**16/12/2021 4:00-7:00**
 
+- [ ] DADS 5.8 HashMaps
 - [ ] DADS CHAPTER 4 Graphs
 - [ ] GA CHAPTER 6 Breadth First Search
 - [ ] GA CHAPTER 7 Dijkstra's algorithm
+
+<!-- **Next**
+
 - [ ] Brute Force
 - [ ] Greedy
 - [ ] Divide and Conquer
