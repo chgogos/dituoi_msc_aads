@@ -4,7 +4,7 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 8/12/2021
+Τελευταία ενημέρωση: 13/12/2021
 
 ## Εργασίες μαθήματος
 
@@ -38,18 +38,23 @@
 
 **08/12/2021 4:00-7:00**
 
-- [ ] DADS CHAPTER 5 Hashing
+- [X] DADS CHAPTER 5 Hashing
 - [ ] GA CHAPTER 5 Hash tables
+
+**16/12/2021 4:00-7:00**
+
+- [ ] DADS CHAPTER 4 Introduction to Graphs
+- [ ] GA CHAPTER 6 Breadth First Search
+- [ ] GA CHAPTER 7 Dijkstra's Algorithm
+
 
 <!-- **Next**
 
-- [ ] DADS CHAPTER 4 Graphs
-- [ ] GA CHAPTER 6 Breadth First Search
-- [ ] GA CHAPTER 7 Dijkstra's algorithm
+- [ ] GA CHAPTER 8 Greedy Algorithms
+- [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
-- [ ] Greedy
 - [ ] Divide and Conquer
-- [ ] Dynamic Programming -->
+- [ ] -->
 
 ---
 
