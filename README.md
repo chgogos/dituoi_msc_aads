@@ -50,17 +50,6 @@
 
 <!-- **Next**
 
-- [ ] GA CHAPTER 5 Hash tables
-
-**16/12/2021 4:00-7:00**
-
-- [ ] DADS CHAPTER 4 Introduction to Graphs
-- [ ] GA CHAPTER 6 Breadth First Search
-- [ ] GA CHAPTER 7 Dijkstra's Algorithm
-
-
-<!-- **Next**
-
 - [ ] GA CHAPTER 8 Greedy Algorithms
 - [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
