@@ -120,6 +120,10 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
 * [mergesort.py](./mergesort.py) ταξινόμηση με συγχώνευση
 * [quick_sort.py](./quick_sort.py) γρήγορη ταξινόμηση
 
+**Γράφοι**
+
+* [graph_traversal.py](./graph_traversal.py)
+
 ---
 
 ## Υλικό
