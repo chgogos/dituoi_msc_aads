@@ -36,7 +36,7 @@
 - [X] GA CHAPTER 3 Recursion
 - [X] GA CHAPTER 4 Quicksort 
 
-**09/12/2021 4:00-7:00**
+**08/12/2021 4:00-7:00**
 
 - [X] DADS CHAPTER 5 Hashing
 - [X] GA CHAPTER 5 Hash tables
@@ -50,10 +50,22 @@
 
 <!-- **Next**
 
+- [ ] GA CHAPTER 5 Hash tables
+
+**16/12/2021 4:00-7:00**
+
+- [ ] DADS CHAPTER 4 Introduction to Graphs
+- [ ] GA CHAPTER 6 Breadth First Search
+- [ ] GA CHAPTER 7 Dijkstra's Algorithm
+
+
+<!-- **Next**
+
+- [ ] GA CHAPTER 8 Greedy Algorithms
+- [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
-- [ ] Greedy
 - [ ] Divide and Conquer
-- [ ] Dynamic Programming -->
+- [ ] -->
 
 ---
 
