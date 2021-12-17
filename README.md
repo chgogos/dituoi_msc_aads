@@ -4,11 +4,11 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 16/12/2021
+Τελευταία ενημέρωση: 17/12/2021
 
 ## Εργασίες μαθήματος
 
-- [ ] [Εργασία 1](./projects/2021f_project1.pdf) με ημερομηνία παράδοσης 19/12/2021
+- [ ] [Εργασία 1](./projects/2021f_project1.pdf) με ημερομηνία παράδοσης ~~19/12/2021~~ 23/12/2021
 - [ ] [Εργασία 2](./projects/2021f_project2.pdf) με ημερομηνία παράδοσης 16/1/2022
 - [ ] Εργασία 3
 
@@ -43,10 +43,15 @@
 
 **16/12/2021 4:00-7:00**
 
-- [ ] DADS 5.8 HashMaps
-- [ ] DADS CHAPTER 4 Graphs
-- [ ] GA CHAPTER 6 Breadth First Search
-- [ ] GA CHAPTER 7 Dijkstra's algorithm
+- [X] DADS 5.8 HashMaps
+- [X] DADS CHAPTER 4 Graphs 
+- [X] GA CHAPTER 6 Breadth First Search
+- [X] GA CHAPTER 7 Dijkstra's algorithm
+
+**23/12/2021 5:00-7:00**
+
+- [] DADS 4.8 Minimum Spanning Trees
+
 
 <!-- **Next**
 
@@ -122,7 +127,7 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
 
 **Γράφοι**
 
-* [graph_traversal.py](./graph_traversal.py)
+* [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γραφήματος με BFS και DFS
 
 ---
 
