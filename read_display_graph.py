@@ -16,7 +16,7 @@ with open(fn) as f:
 
 # δημιουργία adjacency list για το γράφο
 print("CREATE EDGES")
-k = 5
+k = 5 # πλήθος ακμών από κάθε κορυφή προς τις πλησιέστερες άλλες κορυφές
 a_graph = {}  # adjacency list
 # το a_graph είναι λεξικό με κλειδιά, τους αριθμούς κορυφών και τιμές, λίστες με πλειάδες τιμών (ζεύγη)
 # κάθε ζεύγος τιμών διατηρεί πρώτα την απόσταση από την κορυφή κλειδί και μετά την κορυφή με την οποία συνδέεται απευθείας η κορυφή κλειδί
@@ -43,13 +43,12 @@ from graphviz import Digraph
 print("DRAW GRAPH")
 dot = Digraph(comment="hellas")
 for vertex in vertex_coords:
-    # dot.node(str(vertex), label=f'[{} {vertex_coords[vertex][0]:.1f}, {vertex_coords[vertex][1]:.1f}]')
     dot.node(str(vertex), label=f"{vertex}")
 
 for vertex in a_graph:
     for distance, other_vertex in a_graph[vertex]:
         dot.edge(str(vertex), str(other_vertex), label=f"{distance:.1f}")
 
-# print(dot.source)
+print(dot.source)
 dot.render("hellas.gv", view=True)
 
