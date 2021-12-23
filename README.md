@@ -50,12 +50,15 @@
 
 **23/12/2021 5:00-7:00**
 
-- [Χ] Θέματα υλοποίησης εργασίας 2
+- [X] Θέματα υλοποίησης εργασίας 2
 
+
+**13/01/2022 4:00-7:00**
+
+- [ ] DADS 4.8 Minimum Spanning Trees
 
 <!-- **Next**
 
-- [ ] DADS 4.8 Minimum Spanning Trees
 - [ ] GA CHAPTER 8 Greedy Algorithms
 - [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
