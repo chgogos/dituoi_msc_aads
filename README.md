@@ -9,7 +9,7 @@
 ## Εργασίες μαθήματος
 
 - [ ] [Εργασία 1](./projects/2021f_project1.pdf) με ημερομηνία παράδοσης ~~19/12/2021~~ 23/12/2021
-- [ ] [Εργασία 2](./projects/2021f_project2.pdf) με ημερομηνία παράδοσης 16/1/2022
+- [ ] [Εργασία 2](./projects/2021f_project2.pdf) με ημερομηνία παράδοσης 21/1/2022
 - [ ] Εργασία 3
 
 ## Ημερολόγιο μαθημάτων
@@ -50,11 +50,12 @@
 
 **23/12/2021 5:00-7:00**
 
-- [] DADS 4.8 Minimum Spanning Trees
+- [Χ] Θέματα υλοποίησης εργασίας 2
 
 
 <!-- **Next**
 
+- [ ] DADS 4.8 Minimum Spanning Trees
 - [ ] GA CHAPTER 8 Greedy Algorithms
 - [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
@@ -127,7 +128,9 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
 
 **Γράφοι**
 
-* [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γραφήματος με BFS και DFS
+* [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γραφήματος με [BFS](https://brilliant.org/wiki/breadth-first-search-bfs/) και [DFS](https://brilliant.org/wiki/depth-first-search-dfs/) 
+* [read_display_graph.py](./read_display_graph.py) βοηθητικός κώδικας για την εργασία 2 (ανάγνωση δεδομένων, κατασκευή λίστας γειτνίασης)
+  * [gr9882_10.tsp](./gr9882_10.tsp)
 
 ---
 
@@ -138,6 +141,8 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
   * [Grokking algorithms - An illustrated guide for programmers and other curious people](https://www.manning.com/books/grokking-algorithms)
 * Άρθρα
   * [1988 - Pattis - Τextbook errors in binary searching](./resources/1988%20-%20Pattis%20-%20Textbook%20errors%20in%20binary%20searching.pdf)
+  * [2009 - Fortnow - The Status of the P versus NP Problem](https://dl.acm.org/doi/pdf/10.1145/1562164.1562186)
+  * [2022 - Fortnow - Fifty Years of P vs. NP and the Possibility of the Impossible](https://cacm.acm.org/magazines/2022/1/257448-fifty-years-of-p-vs-np-and-the-possibility-of-the-impossible/fulltext)
 * Ιστοσελίδες
   * [How Python list really works](https://antonz.org/list-internals/)
 * MOOCs
