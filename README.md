@@ -4,14 +4,13 @@
 
 Ομάδα MSTEAMS: <https://tinyurl.com/ant8739m>
 
-Τελευταία ενημέρωση: 23/12/2021
+Τελευταία ενημέρωση: 12/1/2022
 
 ## Εργασίες μαθήματος
 
 - [X] [Εργασία 1](./projects/2021f_project1.pdf) με ημερομηνία παράδοσης ~~19/12/2021~~ 23/12/2021
 - [ ] [Εργασία 2](./projects/2021f_project2.pdf) με ημερομηνία παράδοσης 21/1/2022
-- [ ] Εργασία 3
-<!-- - [ ] [Εργασία 3](./projects/2021f_project3.pdf) με ημερομηνία παράδοσης 13/2/2022 -->
+- [ ] [Εργασία 3](./projects/2021f_project3.pdf) με ημερομηνία παράδοσης 13/2/2022
 
 ## Ημερολόγιο μαθημάτων
 
@@ -55,7 +54,8 @@
 
 **13/01/2022 4:00-7:00**
 
-- [ ] DADS 4.8 Minimum Spanning Trees
+- [ ] DADS 4.6 Minimum Spanning Trees
+- [ ] DADS 4.7 Disjoint Sets 
 
 
 <!-- **Next**
@@ -136,13 +136,20 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
 * [read_display_graph.py](./read_display_graph.py) βοηθητικός κώδικας για την εργασία 2 (ανάγνωση δεδομένων, κατασκευή λίστας γειτνίασης)
   * [gr9882_10.tsp](./gr9882_10.tsp)
 
+**Υποσυμβολοσειρές και υποακολουθίες**
+
+* [substrings.py](./substrings.py)
+* [subsequences1.py](./subsequences1.py) υπολογισμός υποακολουθιών επαναληπτικά
+* [subsequences2.py](./subsequences2.py) υπολογισμός υποακολουθιών αναδρομικά
+* [subsequences3.py](./subsequences3.py) υπολογισμός υποακολουθιών με το itertools
+
 ---
 
 ## Υλικό
 
 * Βιβλία
-  * [Design and Analysis of Data Structures](./resources/2018%20-%20Moshiri,%20Izhikevich%20-Design%20and%20Analysis%20of%20Data%20Structures.pdf)
-  * [Grokking algorithms - An illustrated guide for programmers and other curious people](https://www.manning.com/books/grokking-algorithms)
+  * [Design and Analysis of Data Structures](./resources/2018%20-%20Moshiri,%20Izhikevich%20-Design%20and%20Analysis%20of%20Data%20Structures.pdf) (DADS)
+  * [Grokking algorithms - An illustrated guide for programmers and other curious people](https://www.manning.com/books/grokking-algorithms) (GA)
 * Άρθρα
   * [1988 - Pattis - Τextbook errors in binary searching](./resources/1988%20-%20Pattis%20-%20Textbook%20errors%20in%20binary%20searching.pdf)
   * [2009 - Fortnow - The Status of the P versus NP Problem](https://dl.acm.org/doi/pdf/10.1145/1562164.1562186)
