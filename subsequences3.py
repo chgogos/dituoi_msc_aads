@@ -1,13 +1,13 @@
-from itertools import combinations
+subsequences = []
+
+def all_subsequences(string, index, c):
+    if index == len(string):
+        if c != '':
+            subsequences.append(c)
+        return
+    all_subsequences(string, index + 1, c + string[index])
+    all_subsequences(string, index + 1, c)
 
 
-def all_subsequences(s):
-    out = set()
-    for r in range(1, len(s) + 1):
-        for c in combinations(s, r):
-            out.add("".join(c))
-    return sorted(out)
-
-
-subsequences = all_subsequences("HELLO")
+all_subsequences("ΤΑΞΗ", 0, "")
 print(subsequences)

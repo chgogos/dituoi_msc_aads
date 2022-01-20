@@ -1,13 +1,14 @@
-subsequences = set()
+def all_subsequences(s):
+    out = []
+    for c in s:
+        # new_seqs: αντίγραφα των λεκτικών που υπάρχουν στο out, σε καθένα από τα οποία προστίθεται ο χαρακτήρας c στο τέλος
+        new_seqs = []
+        for x in out:
+            new_seqs.append(x + c)
+        out += new_seqs
+        out.append(c)
+    return out
 
-def all_subsequences(string, index, c):
-    if index == len(string):
-        if c != '':
-            subsequences.add(c)
-        return
-    all_subsequences(string, index + 1, c + string[index])
-    all_subsequences(string, index + 1, c)
 
-
-all_subsequences("HELLO", 0, "")
-print(sorted(subsequences))
+subsequences = all_subsequences("ΤΑΞΗ")
+print(subsequences)

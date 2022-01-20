@@ -1,13 +1,22 @@
 from collections import deque
 
+# undirected graph
+# graph = {
+#     "A": ["B", "C"],
+#     "B": ["A", "C", "E"],
+#     "C": ["A", "B", "D"],
+#     "D": ["C", "E"],
+#     "E": ["B", "D"],
+# }
+
+# directed graph
 graph = {
     "A": ["B", "C"],
-    "B": ["A", "C", "E"],
-    "C": ["A", "B", "D"],
-    "D": ["C", "E"],
-    "E": ["B", "D"],
+    "B": ["C", "D"],
+    "C": ["D"],
+    "D": ["E"],
+    "E": []
 }
-
 
 def bfs(s, e):
     """Αναζήτηση κατά πλάτος από το s στο  e"""

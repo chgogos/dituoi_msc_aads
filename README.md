@@ -54,14 +54,18 @@
 
 **13/01/2022 4:00-7:00**
 
-- [ ] DADS 4.6 Minimum Spanning Trees
-- [ ] DADS 4.7 Disjoint Sets 
+- [X] DADS 4.6 Minimum Spanning Trees
+- [X] DADS 4.7 Disjoint Sets 
+
+**20/01/2022 4:00-7:00**
+
+- [ ] GA CHAPTER 9 Δυναμικός Προγραμματισμός
+- [ ] Θέματα υλοποίησης εργασίας 3
 
 
 <!-- **Next**
 
 - [ ] GA CHAPTER 8 Greedy Algorithms
-- [ ] GA CHAPTER 9 Dynamic Programming 
 - [ ] Brute Force
 - [ ] Divide and Conquer
 - [ ] -->
@@ -139,9 +143,12 @@ Amortized χρόνος ενός συνόλου λειτουργιών είναι
 **Υποσυμβολοσειρές και υποακολουθίες**
 
 * [substrings.py](./substrings.py)
-* [subsequences1.py](./subsequences1.py) υπολογισμός υποακολουθιών επαναληπτικά
-* [subsequences2.py](./subsequences2.py) υπολογισμός υποακολουθιών αναδρομικά
-* [subsequences3.py](./subsequences3.py) υπολογισμός υποακολουθιών με το itertools
+* [subsequences1.py](./subsequences1.py) υπολογισμός υποακολουθιών επαναληπτικά με χρήση δυαδικών αριθμών και ολισθήσεων
+* [subsequences2.py](./subsequences2.py) υπολογισμός υποακολουθιών επαναληπτικά
+* [subsequences3.py](./subsequences3.py) υπολογισμός υποακολουθιών αναδρομικά
+* [subsequences4.py](./subsequences4.py) υπολογισμός υποακολουθιών με συνδυασμούς του itertools
+* [dna_experiment.py](./dna_experiment.py) δημιουργία συμβολοσειρών από το αλφάβητο A,G,C,T
+* [brute_force.py](./brute_force.py) απαρίθμηση όλων των υποακολουθιών για 2 συμβολοσειρές, εντοπισμός της μεγαλύτερης κοινής υποακολουθίας
 
 ---
 

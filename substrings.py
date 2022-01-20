@@ -5,5 +5,5 @@ def all_substrings(s):
             subs.append(s[i:j])
     return subs
 
-subsequences = all_substrings("HELLO")
+subsequences = all_substrings("ΤΑΞΗ")
 print(subsequences)
