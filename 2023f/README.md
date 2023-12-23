@@ -17,5 +17,5 @@
   * [count_occurences2.py](./count_occurences2.py)
   * [count_occurences3.py](./count_occurences3.py)
   * [square_root.py](./square_root.py)
-  * [square_root.py](./square_root2.py)
+  * [square_root2.py](./square_root2.py)
   * [bisect_example.py](./bisect_example.py)
